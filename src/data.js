@@ -69,7 +69,8 @@ export default [
     offerPrice: 88.00,
     stock: 12,
     img: "promo-chivas.jpg",
-    category: "pack,whisky",
+    category: "pack",
+    category: "whisky",
   },
   {
     id: "9",

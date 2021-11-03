@@ -1,7 +1,7 @@
 export default [
   {
     id: "1",
-    title: "<Pilsen x 12 Und",
+    title: "Pilsen x 12 Und",
     price: 61.00,
     offerPrice: 58.00,
     stock: 12,

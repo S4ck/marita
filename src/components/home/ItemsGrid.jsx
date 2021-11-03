@@ -51,7 +51,7 @@ export default function ItemsGrid() {
         <AlertTitle mt={4} mb={1} fontSize="lg">
           Producto No Encontrado!
         </AlertTitle>
-        <AlertDescription maxWidth="sm">Nuestro Cheff se fue de Vacaciones..¡¡</AlertDescription>
+        <AlertDescription maxWidth="sm">Sigue disfrutando de tu bebida preferida..¡¡</AlertDescription>
       </Alert>
     );
   }

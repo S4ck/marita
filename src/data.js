@@ -46,7 +46,7 @@ export default [
   },
   {
     id: "6",
-    title: "Black Label 750ml + Guarana 3Lt + Hielo",
+    title: "Whisky JW Black Label 750ml + Guarana 3Lt + Hielo",
     price: 95.00,
     offerPrice: 90.00,
     stock: 12,
@@ -64,7 +64,7 @@ export default [
   },
   {
     id: "8",
-    title: "Chivas Regals 12 Años 750ml + Guarana 3Lt + Hielo",
+    title: "Whisky Chivas Regals 12 Años 750ml + Guarana 3Lt + Hielo",
     price: 90.00,
     offerPrice: 88.00,
     stock: 12,

@@ -102,16 +102,17 @@ function CheckoutForm() {
                 <InputLeftElement children={<PseudoBox as={BiMapAlt} size="24px" color="bluex.400" />} />
                 <Select
                   variant="filled"
-                  placeholder="-- Elije una Ciudad --"
+                  placeholder="-- Elije una Tienda --"
                   pl="40px"
                   name="city"
                   ref={register(validations.city)}
                   isInvalid={errors.city ? true : false}
                 >
-                  <option value="Carquín"> Carquín </option>
-                  <option value="Huacho"> Huacho </option>
-                  <option value="Hualmay"> Hualmay </option>
-                  <option value="Huaura"> Huaura </option>
+                  <option value="E.Palacios"> E.Palacios </option>
+                  <option value="Berenice"> Berenice </option>
+                  <option value="A.Ugarte"> A.Ugarte </option>
+                  <option value="Proceres"> Proceres </option>
+                  <option value="Supe"> Supe </option>
                 </Select>
               </InputGroup>
               {errors.city && (
@@ -124,16 +125,16 @@ function CheckoutForm() {
                 <InputLeftElement children={<PseudoBox as={BiTime} size="24px" color="bluex.400" />} />
                 <Select
                   variant="filled"
-                  placeholder="-- Elije un Horario --"
+                  placeholder="-- Elije tiempo de Entrega --"
                   pl="40px"
                   name="schedule"
                   ref={register(validations.schedule)}
                   isInvalid={errors.schedule ? true : false}
                 >
-                  <option value="Desayuno"> Desayuno 7:00 - 10:00 am </option>
-                  <option value="Almuerzo"> Almuerzo 12:00 - 2:00 pm </option>
-                  <option value="Lonche"> Lonche 4:00 - 6:00 pm </option>
-                  <option value="Cena"> Cena 7:00 - 10:00 pm </option>
+                  <option value="15 Min"> 15 Min </option>
+                  <option value="30 Min"> 30 Min </option>
+                  <option value="45 Min"> 45 Min </option>
+                  <option value="1 Hora"> 1 Hora </option>
                 </Select>
               </InputGroup>
               {errors.schedule && (

@@ -28,7 +28,7 @@ export default [
   },
   {
     id: "4",
-    title: "Queirolo Acholado 750ml+Evervess 1.5Lt+Hielo",
+    title: "Queirolo Acholado 750ml + Evervess 1.5Lt + Hielo",
     price: 42.00,
     offerPrice: 40.00,
     stock: 12,
@@ -37,7 +37,7 @@ export default [
   },
   {
     id: "5",
-    title: "Ron Bacardi Carta de Oro 750ml+Pepsi 2Lt+ Hielo",
+    title: "Ron Bacardi Carta de Oro 750ml + Pepsi 2Lt + Hielo",
     price: 35.00,
     offerPrice: 30.00,
     stock: 12,
@@ -46,7 +46,7 @@ export default [
   },
   {
     id: "6",
-    title: "Black Label 750ml+Guarana 3Lt+ Hielo",
+    title: "Black Label 750ml + Guarana 3Lt + Hielo",
     price: 95.00,
     offerPrice: 90.00,
     stock: 12,
@@ -55,7 +55,7 @@ export default [
   },
   {
     id: "7",
-    title: "Ron Carúpano 750ml+Pepsi 2Lt+Hielo",
+    title: "Ron Carúpano 750ml + Pepsi 2Lt + Hielo",
     price: 25.00,
     offerPrice: 19.00,
     stock: 12,
@@ -64,12 +64,12 @@ export default [
   },
   {
     id: "8",
-    title: "carrot feugiat dui non mollis",
-    price: 3.88,
-    offerPrice: null,
+    title: "Chivas Regals 12 Años 750ml + Guarana 3Lt + Hielo",
+    price: 90.00,
+    offerPrice: 88.00,
     stock: 12,
-    img: "carrot.jpg",
-    category: "crocante",
+    img: "promo-chivas.jpg",
+    category: "pack,whisky",
   },
   {
     id: "9",

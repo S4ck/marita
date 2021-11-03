@@ -32,7 +32,7 @@ export default function Sidebar({ showSidebar, setSidebar }) {
     >
       <RadioButtonGroup defaultValue="all" value={category} onChange={(val) => setCategory(val)} isInline>
         <CustomRadio value="all" title="Todos los Productos" icon={<Box as={BiMinus} size="24px" mr="10" />} />
-        <CustomRadio value="cerveza" title="CervezasLos Frescos" icon={<Box as={BiMinus} size="24px" mr="10" />} />
+        <CustomRadio value="cerveza" title="Cervezas" icon={<Box as={BiMinus} size="24px" mr="10" />} />
         <CustomRadio value="pisco" title="Piscos" icon={<Box as={BiMinus} size="24px" mr="10" />} />
         <CustomRadio value="vino" title="Vinos" icon={<Box as={BiMinus} size="24px" mr="10" />} />
         <CustomRadio value="ron" title="Ron" icon={<Box as={BiMinus} size="24px" mr="10" />} />

@@ -101,11 +101,11 @@ export default [
   {
     id: "33",
     title: "Vino Rosé Santiago Queirolo",
-    price: 8.88,
-    offerPrice: null,
+    price: 15.00,
+    offerPrice: 13.00,
     stock: 12,
-    img: "chicken2.jpg",
-    category: "criollo",
+    img: "rose.jpg",
+    category: "vino",
   },
   {
     id: "44",

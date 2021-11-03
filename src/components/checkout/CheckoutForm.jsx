@@ -125,16 +125,16 @@ function CheckoutForm() {
                 <InputLeftElement children={<PseudoBox as={BiTime} size="24px" color="bluex.400" />} />
                 <Select
                   variant="filled"
-                  placeholder="-- Elije tiempo de Entrega --"
+                  placeholder="-- Elije Forma de Pago --"
                   pl="40px"
                   name="schedule"
                   ref={register(validations.schedule)}
                   isInvalid={errors.schedule ? true : false}
                 >
-                  <option value="15 Min"> 15 Min </option>
-                  <option value="30 Min"> 30 Min </option>
-                  <option value="45 Min"> 45 Min </option>
-                  <option value="1 Hora"> 1 Hora </option>
+                  <option value="Efectivo"> Efectivo </option>
+                  <option value="Tarjeta"> Tarjeta </option>
+                  <option value="Yape"> Yape </option>
+                  <option value="Plin"> Plin </option>
                 </Select>
               </InputGroup>
               {errors.schedule && (

@@ -52,15 +52,15 @@ export const getFormValidations = () => {
         message: "Address is required",
       },
       maxLength: {
-        value: 40,
-        message: "Max Length 40 chars",
+        value: 50,
+        message: "Max Length 50 chars",
       },
       minLength: {
         value: 4,
         message: "Min Length 4 chars",
       },
       pattern: {
-        value: /^[0-9a-zA-Z´# ]{4,40}$/,
+        value: /^[0-9a-zA-Z´# ]{4,50}$/,
         message: "Icorrect Address",
       },
     },

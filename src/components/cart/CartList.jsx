@@ -11,9 +11,9 @@ function CartList() {
       <Alert status="info" variant="solid" flexDirection="column" justifyContent="center" textAlign="center" height="200px" mt="8">
         <AlertIcon size="40px" mr={0} />
         <AlertTitle mt={4} mb={1} fontSize="lg">
-          No se te antoja comer!
+          Que se te Antoja Beber Hoy?
         </AlertTitle>
-        <AlertDescription maxWidth="sm">A esta hora sabe bien un rico Ceviche Mixto..¡¡</AlertDescription>
+        <AlertDescription maxWidth="sm">A esta hora sabe bien una rica cerveza..¡¡</AlertDescription>
       </Alert>
     );
   }

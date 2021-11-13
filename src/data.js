@@ -19,9 +19,9 @@ export default [
   },
   {
     id: "3",
-    title: "Cusqueña Trigo x 12 Und",
-    price: 65.00,
-    offerPrice: 63.00,
+    title: "Cusqueña Trigo x 12 Und SIN HELAR",
+    price: 67.00,
+    offerPrice: 65.00,
     stock: 12,
     img: "cusqueñax12.jpg",
     category: "cerveza",
@@ -29,8 +29,8 @@ export default [
   {
     id: "4",
     title: "Queirolo Acholado 750ml + Evervess 1.5Lt + Hielo",
-    price: 42.00,
-    offerPrice: 40.00,
+    price: 32.00,
+    offerPrice: 30.00,
     stock: 12,
     img: "promo-acholado-queirolo.jpg",
     category: "pack",

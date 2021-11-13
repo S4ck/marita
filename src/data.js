@@ -125,6 +125,7 @@ export default [
     img: "tabernero-borgoña.jpg",
     category: "vino",
   },
+  /*
   {
     id: "66",
     title: "corn feugiat non mollis",
@@ -421,4 +422,5 @@ export default [
     img: "coffe4.jpg",
     category: "bebida",
   },
+  */
 ];

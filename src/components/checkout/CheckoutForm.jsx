@@ -45,12 +45,6 @@ function CheckoutForm() {
             <Switch id="delivery" color="teal" defaultIsChecked onChange={() => setDelivery(!delivery)} />
           </Flex>
 
-          <Flex as="form" p="2" direction="column" onSubmit={handleSubmit(onSubmit)}>
-          <Flex justify="center" align="center" mt="6">
-            <FormLabel htmlFor="delivery">HELADA?</FormLabel>
-            <Switch id="delivery" color="teal" defaultIsChecked onChange={() => setDelivery(!delivery)} />
-          </Flex>
-
           <InputGroup mt="4">
             <InputLeftElement children={<PseudoBox as={BiUser} size="24px" color="bluex.400" />} />
             <Input

@@ -372,7 +372,7 @@ export default [
     img: "muffin3.jpg",
     category: "postre",
   },
-
+*/
   {
     id: "Gaseosa Helada/ sin Helar",
     title: "Coca Cola 1Lt",
@@ -392,7 +392,7 @@ export default [
     img: "incakola1lt.jpg",
     category: "bebida",
   },
-
+/*
   {
     id: "coffe2",
     title: "Caffee Nero Mocha Late",

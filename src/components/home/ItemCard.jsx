@@ -62,7 +62,7 @@ export default function ItemCard({ item }) {
           <Image size="100%" objectFit="cover" src={`/images/${img}`} fallbackSrc="/images/fallbackImg.png" alt="" />
         </Box>
 
-        <Box w="85%" my="5">
+        <Box w="85%" my="3">
           <Flex align="flex-end">
             <Text fontSize="md" fontWeight="medium">
               S/{offerPrice || price}

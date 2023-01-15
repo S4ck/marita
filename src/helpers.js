@@ -61,7 +61,7 @@ export const getFormValidations = () => {
       },
       pattern: {
         value: /^[0-9a-zA-Z´# ]{4,50}$/,
-        message: "Icorrect Address",
+        message: "Incorrect Address",
       },
     },
     //city
